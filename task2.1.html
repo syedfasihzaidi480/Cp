@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="task2.1.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <b><em><p>Create an account</p></em></b>
+
+      <label for="username">Username *:  </label>
+      <input type="text" id="username" name="username" required maxlength="8">
+      <p class="mx"><b>max len should be: 8</b></p>
+
+      <label for="password">Password *:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="Birthday">Birthday:</label>
+      <input type="date" id="Birthday" name="Birthday" >
+
+      <label for="email">Email *:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="gender">Gender *:</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label>
+
+      <label for="number">Phone number *:</label>
+      <input type="tel" id="number" name="number" required pattern="[0-9]{10}">
+      
+      <label for="zip">Zip code *:</label>
+      <input type="text" id="zip" name="zip" required pattern="[0-9]{5}">
+      
+      <label for="country">Country *:</label>
+      <input type="text" id="country" name="country" required>
+
+      <button type="submit">Sign Up</button>
+      <button class="ne">
+        <a href="task2.html" class="signin-link" target="_blank">Sign in</a>
+      </button>
+    </form>
+  </div>
+ <script src="task2.1.js
+ "></script>
+</body>
+</html>
