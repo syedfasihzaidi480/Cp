@@ -1,0 +1,98 @@
+body {
+    background-image: url(p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.logo img {
+    max-height: 50px;
+    width: 120px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+button {
+    background-color: #191a19;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.c {
+    color: white;
+}
+
+.se {
+    color: rgb(104, 103, 103) transparent;
+    position: relative;
+    
+}
+
+input[type="search"] {
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-icon {
+    background-color: green;
+    color: white;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.a{
+    color: white;
+    font-size: 30px;
+}
+.Popular{
+    color: white;
+    
+}
+.Popular button{
+    color: white;
+    border-radius: 30px;
+   
+}
+a{
+color: white;
+text-decoration: none;
+
+}
+.mid{
+position: absolute;
+ left: 120px;
+ top: 190px;
+}
+.se{
+border: 200px;
+}
